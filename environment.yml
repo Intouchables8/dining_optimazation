@@ -1,0 +1,20 @@
+name: dining_optimazation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - joblib
+  - tqdm
+  - pip:
+    - tensorflow
+    - keras
+    - opencv-python
+    - imbalanced-learn
+    - wandb
+    - pympi-ling
